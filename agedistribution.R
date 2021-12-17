@@ -14,7 +14,6 @@ seguimientopal = seguimientopal %>% #vamos a crear dos columnas que separen star
   mutate_at(vars(start_date), funs(year, month))
 seguimientopal$month<- as.factor(seguimientopal$month)
 
-#afsaf
 
 Months <- c(          #para cambiar titulo de cada facet
   `6` = "June",
